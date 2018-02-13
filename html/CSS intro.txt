@@ -1,0 +1,17 @@
+CSS:
+
+1. Inline 
+2. External
+3. Internal
+
+
+
+3. Internal :
+
+<head>
+	<style>
+	      p{
+
+		}
+	</style>
+</head>

@@ -1,0 +1,7 @@
+HSV - hew saturation value(0%-100%) different colors of grey
+HSl - hew saturation lightness (0%-100%) hew saturation lightness
+rgb - backgrounds-color:rgb(255,0,0)
+hex value - #rrggbb - #00ff00 (for green color)
+rgba - 
+hsla - (0,360) 0->red, 120->green, 240->blue, 360->red
+

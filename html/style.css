@@ -1,0 +1,23 @@
+p{
+	color:blue;
+	font-size:36px;
+	
+}
+
+#p1
+{
+	color:red;
+	font-size:72px
+}
+		
+.para
+{
+	color:green;
+	fornt-size:20px
+}
+
+body
+{
+	background-image:url(super.jpg);
+	repeat:no-repeat;
+}
