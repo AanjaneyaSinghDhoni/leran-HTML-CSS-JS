@@ -19,5 +19,10 @@ p{
 body
 {
 	background-image:url(super.jpg);
-	repeat:no-repeat;
+	backgroundsize:1020px 900px;                 <!--"auto" to auto fit the screen-->
+	background-position:right bottom;
+	margin-right:200px;
+	background-attachment:fixed;
+	
+	
 }
