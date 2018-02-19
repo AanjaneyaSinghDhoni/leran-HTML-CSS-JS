@@ -1,3 +1,8 @@
+
+tr:nth-child(even)
+{
+	background-color:t=yellow;
+}
 p{
 	color:blue;
 	font-size:36px;
