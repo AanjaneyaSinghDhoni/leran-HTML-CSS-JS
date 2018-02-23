@@ -1,0 +1,72 @@
+<!--the form tag is used
+ to collect the user input and sned the data  using a specific method-->
+
+<!--
+		-> method : it defines the http method to be useed when submitting the form it is of two types get and post
+				GET: by default the method is get , in this method the form data is appended with the URL as the key value pairs, the URL length is 				limited to 3000 character.
+				
+				POST:This method is used when the form data sensitive or it contain the personal information, in this metjod the form data is not 				displayed in the url,  the length of the URL is not limited, most secure.
+
+
+-->
+
+
+<html>
+	<head>
+	</head>
+
+	<body>
+	
+	<form action="FirstPage.html" method="GET">     <!--Get has text limit of 3000 chars,but post has no limit to carry chars-->
+		<table><tr>
+		<td>
+		Name :
+		</td>
+		<td> 
+		<input type="text" name="Name" placeholder="Enter your name"/><br>
+		</td>
+		</tr>
+
+		<tr>
+		<td>
+                Age:
+		</td>
+		<td> 
+		<input type ="text" name="Age" placeholder="Enter your age"><br>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		Gender&nbsp :&nbsp
+		</td>
+		<td>
+		<input type="radio" name="gender" checked="yes">Male
+		<input type="radio" name="gender">Female
+		<input type="radio" name="gender">Other	<br>
+		</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<select name="country">
+					<option value="India">India</option>
+					<option Value="Pakistan">Pakistan</option>
+					<option value="China">China</option>
+					<option value="Russia"> Russia</option>
+				</select>
+			</td>
+		</tr>
+
+
+		<tr>
+		<td>		
+			<input type="submit" name="submit" value="register"/>				
+	
+		</td>
+		</tr>
+		</table>
+	</form>
+	
+
+	</body>
+</html>
